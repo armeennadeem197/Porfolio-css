@@ -1,0 +1,96 @@
+
+  .contactSection {
+    background-color:#1a1a2e; /* Dark background */
+    padding: 3rem;
+    color: white;
+  }
+  
+  .contactWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contactTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputWrapper {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    background-color: #374151;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color:#1a1a2e;
+    outline: none;
+  }
+  
+  .textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    background-color: #3e3e79;
+    align-items: center;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #374151;
+  }
+  
+  .contactInfo {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .contactEmail {
+    font-size: 1.2rem;
+    color: #3e3e79;
+    text-decoration: none;
+  }
+  
+  .contactEmail:hover {
+    text-decoration: underline;
+  }
+  
+  .contactSocial {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  

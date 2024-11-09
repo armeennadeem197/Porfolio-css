@@ -1,0 +1,59 @@
+/* footer.module.css */
+
+.footerContainer {
+    background-color: #1f2937; /* Dark background */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footerLeft {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .footerName {
+    color: #10b981; /* Green color for the name */
+  }
+  
+  .footerRight {
+    text-align: right;
+  }
+  
+  .footerText {
+    font-size: 1rem;
+  }
+  
+  .emailLink {
+    color: #10b981;
+    text-decoration: none;
+  }
+  
+  .emailLink:hover {
+    text-decoration: underline;
+  }
+  
+  .socialLinks {
+    margin-top: 1rem;
+    /* Add styles for social media icons here */
+  }
+  
+  @media (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footerLeft, .footerRight {
+      text-align: center;
+    }
+  }
+  

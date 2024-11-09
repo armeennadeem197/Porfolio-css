@@ -1,0 +1,109 @@
+.skillContainer {
+  padding: 3rem 0;
+  background-color: #1a1a2e; /* Dark background for contrast */
+  color: #fff;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.skillsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto; /* Center the container */
+}
+
+.skillItem {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.iconWrapper {
+  margin-bottom: 1rem;
+}
+
+.skillInfo h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.skillBar {
+  background-color: #e1e1e1; /* Light gray background for progress bars */
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.skillProgress {
+  background-color: purple;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skillInfo p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .skillsWrapper {
+    gap: 1.5rem; /* Reduce gap for smaller screens */
+    flex-direction: row; /* Keep it in a row for medium screens */
+  }
+
+  .skillItem {
+    width: 220px; /* Slightly smaller skill items */
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsWrapper {
+    flex-direction: column;
+    gap: 1.5rem; /* Reduce gap between skill items on smaller screens */
+    justify-content: space-evenly;
+  }
+
+  .skillItem {
+    width: 80%; /* Take more width on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 2rem; /* Slightly smaller title for small screens */
+  }
+
+  .skillInfo h2 {
+    font-size: 1.3rem; /* Smaller text for skill names */
+  }
+
+  .skillInfo p {
+    font-size: 1rem; /* Reduce size of the skill description */
+  }
+
+  .skillItem {
+    width: 90%; /* Even larger skill items on very small screens */
+  }
+}

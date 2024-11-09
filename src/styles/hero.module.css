@@ -1,0 +1,97 @@
+/* Container styling */
+.heroContainer {
+    background-color: #1a1a2e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  /* Section styling */
+  .heroSection {
+    color: #ffffff;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .heroContent {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .heroImageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Title styling */
+  .heroTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .heroTitle span {
+    color: #9b5de5;
+    font-weight: bold;
+  }
+  
+  /* Description styling */
+  .heroDescription {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+  }
+  
+  /* Social icons */
+  .heroIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .heroIconLink {
+    color: #ffffff;
+    background-color: #6a4c93;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heroIconLink:hover {
+    background-color: #b392f0;
+  }
+  
+  /* Image styling */
+  .heroImage {
+    border-radius: 50%;
+    border: 4px solid #9b5de5;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .heroSection {
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+    }
+    .heroContent {
+      text-align: left;
+    }
+    .heroIcons {
+      justify-content: flex-start;
+    }
+  }
+  
